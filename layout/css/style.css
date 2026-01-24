@@ -1,0 +1,442 @@
+body{
+    background-color: rgb(16 16 16);
+    overflow: hidden;
+}
+.icon a{
+    text-decoration: none;
+    color: beige;
+}
+.icon{
+    font-size: 400px;
+    color: beige;
+    position: relative;
+    top: 170px;
+}
+.header{
+    margin-top: 200px;
+    font-size: 60px;
+    color: beige;
+    font-weight: bold;
+}
+.subheader{
+    color: beige;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.google{
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    border: beige;
+    font-size: 15px;
+}
+.apple{
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    border: beige;
+    font-size: 15px;
+
+}
+.sign-up-btn{
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    border: beige;
+    font-size: 15px;
+
+}
+.sign-in-btn{
+    border-radius: 25px;
+    width: 50%;
+    height: 40px;
+    margin-top: 10px;
+    border-color: beige;
+    background-color: black;
+    color: beige;
+}
+.or-con{
+    position: relative;
+}
+.left-line{
+    border-bottom: 1px solid beige;
+    position: absolute;
+    width: 20%;
+    top: 15px;
+}
+.right-line{
+    border-bottom: 1px solid beige;
+    position: absolute;
+    width: 20%;
+    top: 15px;
+    left: 190px;
+}
+.or{
+    position: absolute;
+    top: 2px;
+    left: 150px;
+    color: beige;
+}
+.text{
+    margin-top: 80px;
+    color: beige;
+    font-size: 18px;
+    font-weight: bold;
+}
+.google i{
+    font-size: 20px;
+}
+.browse{
+    margin-top: 30px;
+}
+.browse a{
+    color: beige;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/*!-------------------------------------------------------------------*/
+/** Start Sidebar*
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    left: 200px;
+    bottom: 20px;
+    width: 260px;
+    border-radius: 10px;
+    box-sizing: initial;
+    transition: 0.5s;
+}
+.sidebar .l .logo{
+    border-left: 1px solid beige;
+    border-bottom: 1px solid beige;
+}
+
+.sidebar ul{
+    position: absolute;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.sidebar .l{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 40px;
+}
+.sidebar ul li{
+    position: relative;
+    width: 100%;
+    list-style: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.sidebar ul li.active {
+    border-bottom: 1px solid beige;
+}
+.sidebar ul li a {
+    position: relative;
+    display: block;
+    width: 100%;
+    display: flex;
+    text-decoration: none;
+    color: beige;
+}
+.sidebar ul li a:hover{
+    border-radius: 15px;
+    border-bottom: 1px solid beige;
+}
+
+.sidebar ul li a .logo-icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 88px;
+    text-align: center;
+}
+.sidebar ul li a .logo-title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 55px;
+}
+.sidebar ul li a .logo-icon i{
+    font-size: 50px;
+    font-family: sans-serif;
+}
+.sidebar ul li a .logo-title{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.sidebar ul li a .icon {
+    position: relative;
+    display: block;
+    min-width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.sidebar ul li a .icon i{
+    font-size: 1.5em;
+}
+.sidebar ul li a .title{
+    position: relative;
+    display: block;
+    padding-left: 10px;
+    height: 60px;
+    line-height: 55px;
+    white-space: normal;
+    font-size: 25px;
+}
+.sidebar .post-button{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 70%;
+    background-color: beige;
+    border-radius: 15px;
+    height: 50px;
+    position: absolute;
+    bottom: -45px;
+    right: 45px;
+}
+.sidebar .log-out {
+    position: absolute;
+    top: 800px;
+}
+/** End Sidebar*/
+
+/*!-------------------------------------------------------------------*/
+
+/**Start search tweet*
+
+
+.search-tweet{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    position: relative;
+}
+.search-tweet input{
+    border-radius: 15px;
+    width: 100%;
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    color: beige;
+    padding: 20px;
+}
+
+.search-tweet .search-button{
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: monospace;
+    /*font-size: 1.5rem;*
+    color: #FAFAFA;
+    text-transform: uppercase;
+    /*padding: 10px 20px;*
+    border-radius: 10px;
+    border: 2px solid beige;
+    background: #25252500;
+    box-shadow: 3px 3px beige;
+    cursor: pointer;
+}
+.search-tweet .search-button:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+/**End search tweet*
+
+/*!-------------------------------------------------------------------*/
+/**Start Post*
+
+.post-container{
+    margin-right: 30px;
+}
+.type{
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    border-right: 1px solid rgb(112, 112, 112);
+    border-left: 1px solid rgb(112, 112, 112);
+    border-top: 1px solid rgb(112, 112, 112);
+    border-radius: 15px;
+    padding: 15px;
+    position: relative;
+}
+.type a{
+    text-decoration: none;
+    color: beige;
+    font-size: 20px;
+}
+.type .for_you{
+    margin-right: 50px;
+    margin-left: 120px;
+}
+.type .for_you.active{
+    margin-right: 50px;
+    margin-left: 120px;
+    border-bottom: 1px solid beige;
+}
+.type .following{
+    margin-left: 180px;
+}
+.type .following.active{
+    border-bottom: 1px solid beige;
+    margin-left: 180px;
+}
+.vl {
+    border-left: 1px solid beige;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.post {
+    color: beige;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid rgb(112, 112, 112);
+    border-right: 1px solid rgb(112, 112, 112);
+    border-left: 1px solid rgb(112, 112, 112);
+    border-top: 1px solid rgb(112, 112, 112);
+    border-radius: 15px;
+    position: relative;
+}
+
+.post .title{
+    margin-bottom: 10px;
+    font-size: 40px;
+    padding-left: 20px;
+    border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.post .upper .follow{
+    position: absolute;
+    top: 35px;
+    right: 110px;
+    font-size: 20px;
+}
+.post .upper .save{
+    position: absolute;
+    top: 35px;
+    right: 75px;
+    font-size: 20px;
+}
+.post .upper .report{
+    position: absolute;
+    top: 35px;
+    right: 30px;
+    font-size: 20px;
+}
+.post img{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.post .content{
+    margin-bottom: 0;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+.post .interactive {
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid  rgb(112, 112, 112);
+    border-radius: 5px;
+
+}   
+.post .interactive .like{
+    margin-right: 120px;
+}
+.post .interactive .comment{
+    margin-right: 120px;
+}
+
+.post a{
+    text-decoration: none;
+    color: beige;
+}
+.interactive .icon{
+    font-size: 20px;
+}
+/**End Post*/
+
+/*!-------------------------------------------------------------------*/
+
+
+
+/**Start trending*
+
+.left .trending{
+    margin-top: 70px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 10px;
+}
+.trending p{
+    color: beige;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.trending ul{
+    list-style: none;
+    color: beige;
+}
+.trending li{
+    margin: 30px 10px;
+}
+.left .who{
+    margin-top: 30px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 10px;
+}
+.who p{
+    color: beige;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.who ul{
+    list-style: none;
+    color: beige;
+}
+.who li{
+    margin: 30px 10px;
+    position: relative;
+}
+.who .follow-btn{
+    border-radius: 15px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    border-color: beige;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 2px 2px beige;
+    color: beige;
+}
+
+/**End trending*/
+
